@@ -1,0 +1,10 @@
+.body {
+  font-family: 'Playfair Display', serif;
+  text-align: center;
+}
+
+.myContainer {
+  margin-top: 3%;
+  margin-left: 25%;
+  width: 80%;
+}

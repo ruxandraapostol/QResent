@@ -1,0 +1,13 @@
+insert into professor (first_name, last_name, ldap) values ('Cornel', 'Popescu', 'cornel.popescu');
+insert into professor (first_name, last_name, ldap) values ('Costin', 'Boiangiu', 'costin.boiangiu');
+insert into subject (name, description, professor_ldap, points) values ('MPS', 'Managementul proiectelor software', 'costin.boiangiu', null);
+insert into subject (name, description, professor_ldap, points) values ('CN2', 'Calculatoare Numerice 2', 'cornel.popescu', null);
+insert into subject (name, description, professor_ldap, points) values ('CN', 'Calculatoare Numerice', 'cornel.popescu', null);
+insert into user_profile (ldap, first_name, last_name, user_role, clazz, current_year, old_user_password, user_password, contact) values ('admin', null, null, 'a', null, null, null, 'admin', null);
+insert into user_profile (ldap, first_name, last_name, user_role, clazz, current_year, old_user_password, user_password, contact) values ('cornel.popescu', 'Cornel', 'Popescu', 'p', null, null, null, '1234', 'cornel.popescu@cs.pub.ro');
+insert into user_profile (ldap, first_name, last_name, user_role, clazz, current_year, old_user_password, user_password, contact) values ('anca_mihaela.enache', 'Anca-Mihaela', 'Enache', 's', '341C2', 4, null, '1234', 'anca_mihaela.enache@stud.acs.upb.ro');
+insert into user_profile (ldap, first_name, last_name, user_role, clazz, current_year, old_user_password, user_password, contact) values ('anca.andronache', 'Anca', 'Andronache', 's', '343C5', 4, null, '1234', 'anca.andronache@stud.acs.upb.ro');
+insert into user_profile (ldap, first_name, last_name, user_role, clazz, current_year, old_user_password, user_password, contact) values ('ruxandra.apostol', 'Ruxandra-Ecaterina', 'Apostol', 's', '343C5', 4, null, '1234', 'ruxandra.apostol@stud.acs.upb.ro');
+insert into student (ldap, first_name, last_name, clazz) values ('anca_mihaela.enache', 'Anca-Mihaela', 'Enache', '341C2');
+insert into student (ldap, first_name, last_name, clazz) values ('anca.andronache', 'Anca', 'Andronache', '343C5');
+insert into student (ldap, first_name, last_name, clazz) values ('ruxandra.apostol', 'Ruxandra-Ecaterina', 'Apostol', '343C5');
